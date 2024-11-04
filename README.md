@@ -52,6 +52,7 @@ Some examples of the generated payloads:
 
 # Notes
 Testing in Legal Environments: This tool should only be used in environments where you have permission to perform security assessments. Unauthorized testing may violate laws and ethical guidelines.
+
 Customization: The payloads can be modified directly in the script or via del.txt and blind_xss_payloads.txt files for even more variations.
 
 # License
